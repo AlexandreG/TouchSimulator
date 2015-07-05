@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#bbb"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/full_control_button_w"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/minus_button"
+            android:layout_width="@dimen/full_control_button_w"
+            android:layout_height="@dimen/full_control_button_w"
+            android:layout_weight="0"
+            android:background="#fff"
+            android:src="@drawable/minus" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#eee" />
+
+        <ImageView
+            android:id="@+id/exit_button"
+            android:layout_width="@dimen/full_control_button_w"
+            android:layout_height="@dimen/full_control_button_w"
+            android:layout_weight="0"
+            android:background="#fff"
+            android:src="@drawable/cross" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/full_control_button_pad_tb"
+        android:paddingLeft="@dimen/full_control_button_pad_lr"
+        android:paddingRight="@dimen/full_control_button_pad_lr"
+        android:paddingTop="@dimen/full_control_button_pad_tb">
+
+        <RelativeLayout
+            android:layout_width="@dimen/arrow_keys_width"
+            android:layout_height="@dimen/arrow_keys_height"
+            android:layout_marginRight="@dimen/arrow_keys_margin_r"
+            android:padding="@dimen/arrow_keys_pad">
+
+            <ImageView
+                android:id="@+id/arrow_up"
+                android:layout_width="@dimen/arrow_key_w"
+                android:layout_height="@dimen/arrow_key_w"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/up" />
+
+            <ImageView
+                android:id="@+id/arrow_left"
+                android:layout_width="@dimen/arrow_key_w"
+                android:layout_height="@dimen/arrow_key_w"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/left" />
+
+            <ImageView
+                android:id="@+id/arrow_right"
+                android:layout_width="@dimen/arrow_key_w"
+                android:layout_height="@dimen/arrow_key_w"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/right" />
+
+            <ImageView
+                android:id="@+id/arrow_down"
+                android:layout_width="@dimen/arrow_key_w"
+                android:layout_height="@dimen/arrow_key_w"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/down" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/click"
+                android:textSize="@dimen/button_click_size" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

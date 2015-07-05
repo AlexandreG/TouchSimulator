@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="reduced_controls_width">45dp</dimen>
+
+    <dimen name="full_control_button_w">30dp</dimen>
+    <dimen name="full_control_button_pad_lr">6dp</dimen>
+    <dimen name="full_control_button_pad_tb">0dp</dimen>
+
+    <dimen name="arrow_keys_width">100dp</dimen>
+    <dimen name="arrow_keys_height">100dp</dimen>
+    <dimen name="arrow_keys_pad">5dp</dimen>
+    <dimen name="arrow_keys_margin_r">15dp</dimen>
+
+    <dimen name="arrow_key_w">30dp</dimen>
+
+    <dimen name="button_click_size">14dp</dimen>
+
+    <dimen name="click_target_w">35dp</dimen>
+    <dimen name="click_target_h">35dp</dimen>
+</resources>
